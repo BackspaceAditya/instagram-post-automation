@@ -27,9 +27,9 @@ public_url = resp.json()["tunnels"][0]["public_url"]
 image_url = public_url + "/test1.jpg"
 print("Image URL:", image_url)
 
-access_token = "EAAObL6GYdaABOxVDM58eAHihRiIymnSnxqDI5Fdj0ZBVZAKaZADGZCWd7LqOw7LhVceJky9dSzll9EjMCxLOJ2R902ZC9Q4ZAy4W2eYiBbwXH44c23ofvD9OY4711YjlmbbElF57ySa2J8nWZB8ZAoqIvZB771XATOT3Tj0mQcpTMvc20kAZAdy2EHj2EH9460M7xlaakoTcZArXVEV73OwlQZDZD"
-instagram_id = "17841467174628931"
-caption = "Best Movie from 2012"
+access_token = "enter your own graph api key"
+instagram_id = "enter your instagram id(shown when connecting instagram account to facebook page)"
+caption = "caption for post"
 
 def create_container(access_token, image_url, caption):
     url = f"https://graph.facebook.com/v17.0/{instagram_id}/media"
